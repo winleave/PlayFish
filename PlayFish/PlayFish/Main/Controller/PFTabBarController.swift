@@ -15,25 +15,42 @@ class PFTabBarController: UITabBarController {
 
         // Do any additional setup after loading the view.
         let homeVc = HomeController()
+        setupSubs(vc: homeVc, title: "首页", imgName: "btn_home")
+        
+        let broadVc = BroadCastController()
+        setupSubs(vc: broadVc, title: "直播", imgName: "btn_column")
+        
+        let attVc = AttentionController()
+        setupSubs(vc: attVc, title: "关注", imgName: "btn_l_attention")
+        
+        let mineVc = MineController()
+        setupSubs(vc: mineVc, title: "我的", imgName: "btn_user")
         
         
-        addChildViewController(homeVc)
+       
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setupSubs (vc:UIViewController,title:String,imgName:String) {
+        
+        vc.tabBarItem.title = title
+        vc.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.black], for: .normal)
+        vc.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.orange], for: .selected)
+        var img = UIImage(named: imgName + "_normal")
+                img = img?.withRenderingMode(.alwaysOriginal)
+                vc.tabBarItem.image = img
+        
+        var seletctImg = UIImage(named: imgName + "_selected")
+        seletctImg = seletctImg?.withRenderingMode(.alwaysOriginal)
+        
+        vc.tabBarItem.selectedImage = seletctImg
+        
+        let homeNav = PFNavigationController(rootViewController: vc)
+        
+        addChildViewController(homeNav)
+        
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+  
 }
+
+
