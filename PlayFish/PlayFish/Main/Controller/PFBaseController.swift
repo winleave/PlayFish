@@ -11,6 +11,7 @@ import UIKit
 class PFBaseController: UIViewController {
 
     override func viewDidLoad() {
+        view.backgroundColor = UIColor.white
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

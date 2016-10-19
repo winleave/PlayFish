@@ -32,6 +32,7 @@
 		A4BBE7E21DA9155000ED3CF2 /* BroadCastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E11DA9155000ED3CF2 /* BroadCastController.swift */; };
 		A4BBE7E41DA9156400ED3CF2 /* AttentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E31DA9156400ED3CF2 /* AttentionController.swift */; };
 		A4BBE7E61DA9157100ED3CF2 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E51DA9157100ED3CF2 /* MineController.swift */; };
+		A4BBE7E91DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		A4BBE7E11DA9155000ED3CF2 /* BroadCastController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadCastController.swift; sourceTree = "<group>"; };
 		A4BBE7E31DA9156400ED3CF2 /* AttentionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionController.swift; sourceTree = "<group>"; };
 		A4BBE7E51DA9157100ED3CF2 /* MineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A4BBE7B31DA8C72000ED3CF2 /* Main */,
 				A4BBE7911DA8C6CE00ED3CF2 /* AppDelegate.swift */,
 				A4BBE7981DA8C6CE00ED3CF2 /* Assets.xcassets */,
+				A4BBE7E71DA93BFB00ED3CF2 /* Tool */,
 				A4BBE79D1DA8C6CE00ED3CF2 /* Info.plist */,
 			);
 			path = PlayFish;
@@ -292,6 +295,14 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
+		A4BBE7E71DA93BFB00ED3CF2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -386,6 +397,7 @@
 				A4BBE7921DA8C6CE00ED3CF2 /* AppDelegate.swift in Sources */,
 				A4BBE7BE1DA8C9E700ED3CF2 /* PFNavigationController.swift in Sources */,
 				A4BBE7E41DA9156400ED3CF2 /* AttentionController.swift in Sources */,
+				A4BBE7E91DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
