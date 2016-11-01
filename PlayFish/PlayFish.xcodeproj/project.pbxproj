@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A478E8051DBA33F800DE704F /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478E8041DBA33F800DE704F /* PageContentView.swift */; };
+		A48C7E8D1DB78C560079E2CC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C7E8C1DB78C560079E2CC /* UIView+Extension.swift */; };
+		A48C7E8F1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C7E8E1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift */; };
+		A48C7E911DB7D3EB0079E2CC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C7E901DB7D3EB0079E2CC /* TestView.swift */; };
+		A4AB6D6B1DC4511E007ED994 /* RecomandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB6D6A1DC4511E007ED994 /* RecomandController.swift */; };
+		A4B75FE21DBCBBB30017570B /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B75FE11DBCBBB30017570B /* PageCollectionViewCell.swift */; };
 		A4BBE7921DA8C6CE00ED3CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7911DA8C6CE00ED3CF2 /* AppDelegate.swift */; };
 		A4BBE7991DA8C6CE00ED3CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BBE7981DA8C6CE00ED3CF2 /* Assets.xcassets */; };
 		A4BBE7B81DA8C9A500ED3CF2 /* PFBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7B71DA8C9A500ED3CF2 /* PFBaseController.swift */; };
@@ -33,9 +39,17 @@
 		A4BBE7E41DA9156400ED3CF2 /* AttentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E31DA9156400ED3CF2 /* AttentionController.swift */; };
 		A4BBE7E61DA9157100ED3CF2 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E51DA9157100ED3CF2 /* MineController.swift */; };
 		A4BBE7E91DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */; };
+		E3FB1FF9E1165F6BAC6CC84E /* Pods_PlayFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7252F647778844739FD882BE /* Pods_PlayFish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7252F647778844739FD882BE /* Pods_PlayFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A478E8041DBA33F800DE704F /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		A48C7E8C1DB78C560079E2CC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A48C7E8E1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		A48C7E901DB7D3EB0079E2CC /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		A4AB6D6A1DC4511E007ED994 /* RecomandController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomandController.swift; sourceTree = "<group>"; };
+		A4B75FE11DBCBBB30017570B /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
 		A4BBE78E1DA8C6CE00ED3CF2 /* PlayFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BBE7911DA8C6CE00ED3CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4BBE7981DA8C6CE00ED3CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,6 +78,8 @@
 		A4BBE7E31DA9156400ED3CF2 /* AttentionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionController.swift; sourceTree = "<group>"; };
 		A4BBE7E51DA9157100ED3CF2 /* MineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
 		A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		E1EB7E68472299BB5F3B9571 /* Pods-PlayFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayFish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayFish/Pods-PlayFish.debug.xcconfig"; sourceTree = "<group>"; };
+		E290CAB06BC71ED48E9A2109 /* Pods-PlayFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayFish.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayFish/Pods-PlayFish.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +87,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FB1FF9E1165F6BAC6CC84E /* Pods_PlayFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B28D274B6EC993F34AD504 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1EB7E68472299BB5F3B9571 /* Pods-PlayFish.debug.xcconfig */,
+				E290CAB06BC71ED48E9A2109 /* Pods-PlayFish.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A48C7E8B1DB78C1B0079E2CC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A48C7E8C1DB78C560079E2CC /* UIView+Extension.swift */,
+				A48C7E8E1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A4BBE7851DA8C6CD00ED3CF2 = {
 			isa = PBXGroup;
 			children = (
 				A4BBE7901DA8C6CE00ED3CF2 /* PlayFish */,
 				A4BBE78F1DA8C6CE00ED3CF2 /* Products */,
+				36B28D274B6EC993F34AD504 /* Pods */,
+				D1A9BFEB266C9E7671AB26E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +139,7 @@
 				A4BBE7AB1DA8C72000ED3CF2 /* Attention */,
 				A4BBE7AF1DA8C72000ED3CF2 /* Mine */,
 				A4BBE7B31DA8C72000ED3CF2 /* Main */,
+				A48C7E8B1DB78C1B0079E2CC /* Extension */,
 				A4BBE7911DA8C6CE00ED3CF2 /* AppDelegate.swift */,
 				A4BBE7981DA8C6CE00ED3CF2 /* Assets.xcassets */,
 				A4BBE7E71DA93BFB00ED3CF2 /* Tool */,
@@ -124,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				A4BBE7BB1DA8C9D000ED3CF2 /* HomeController.swift */,
+				A4AB6D6A1DC4511E007ED994 /* RecomandController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -138,6 +177,9 @@
 		A4BBE7A61DA8C72000ED3CF2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A48C7E901DB7D3EB0079E2CC /* TestView.swift */,
+				A478E8041DBA33F800DE704F /* PageContentView.swift */,
+				A4B75FE11DBCBBB30017570B /* PageCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +345,14 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		D1A9BFEB266C9E7671AB26E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7252F647778844739FD882BE /* Pods_PlayFish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -310,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4BBE7A01DA8C6CE00ED3CF2 /* Build configuration list for PBXNativeTarget "PlayFish" */;
 			buildPhases = (
+				223D354BAAC26C71B88767EC /* [CP] Check Pods Manifest.lock */,
 				A4BBE78A1DA8C6CE00ED3CF2 /* Sources */,
 				A4BBE78B1DA8C6CE00ED3CF2 /* Frameworks */,
 				A4BBE78C1DA8C6CE00ED3CF2 /* Resources */,
+				78122E4B18EC630D4136BE0C /* [CP] Embed Pods Frameworks */,
+				8C88F1C70178D54A67CD7B7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +388,8 @@
 				TargetAttributes = {
 					A4BBE78D1DA8C6CE00ED3CF2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 582Q49ZKFZ;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -384,19 +439,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		223D354BAAC26C71B88767EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78122E4B18EC630D4136BE0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayFish/Pods-PlayFish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C88F1C70178D54A67CD7B7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayFish/Pods-PlayFish-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4BBE78A1DA8C6CE00ED3CF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4AB6D6B1DC4511E007ED994 /* RecomandController.swift in Sources */,
+				A48C7E911DB7D3EB0079E2CC /* TestView.swift in Sources */,
+				A4B75FE21DBCBBB30017570B /* PageCollectionViewCell.swift in Sources */,
 				A4BBE7BC1DA8C9D000ED3CF2 /* HomeController.swift in Sources */,
 				A4BBE7BA1DA8C9B800ED3CF2 /* PFTabBarController.swift in Sources */,
 				A4BBE7B81DA8C9A500ED3CF2 /* PFBaseController.swift in Sources */,
 				A4BBE7E21DA9155000ED3CF2 /* BroadCastController.swift in Sources */,
 				A4BBE7E61DA9157100ED3CF2 /* MineController.swift in Sources */,
+				A48C7E8F1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift in Sources */,
 				A4BBE7921DA8C6CE00ED3CF2 /* AppDelegate.swift in Sources */,
 				A4BBE7BE1DA8C9E700ED3CF2 /* PFNavigationController.swift in Sources */,
 				A4BBE7E41DA9156400ED3CF2 /* AttentionController.swift in Sources */,
+				A478E8051DBA33F800DE704F /* PageContentView.swift in Sources */,
+				A48C7E8D1DB78C560079E2CC /* UIView+Extension.swift in Sources */,
 				A4BBE7E91DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,9 +606,11 @@
 		};
 		A4BBE7A11DA8C6CE00ED3CF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EB7E68472299BB5F3B9571 /* Pods-PlayFish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 582Q49ZKFZ;
 				INFOPLIST_FILE = PlayFish/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -511,9 +622,11 @@
 		};
 		A4BBE7A21DA8C6CE00ED3CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E290CAB06BC71ED48E9A2109 /* Pods-PlayFish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 582Q49ZKFZ;
 				INFOPLIST_FILE = PlayFish/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +655,7 @@
 				A4BBE7A21DA8C6CE00ED3CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

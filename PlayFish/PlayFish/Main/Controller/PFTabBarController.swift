@@ -15,22 +15,22 @@ class PFTabBarController: UITabBarController {
 
         // Do any additional setup after loading the view.
         let homeVc = HomeController()
-        setupSubs(vc: homeVc, title: "首页", imgName: "btn_home")
+        setupSubs(homeVc, title: "首页", imgName: "btn_home")
         
         let broadVc = BroadCastController()
-        setupSubs(vc: broadVc, title: "直播", imgName: "btn_column")
+        setupSubs(broadVc, title: "直播", imgName: "btn_column")
         
         let attVc = AttentionController()
-        setupSubs(vc: attVc, title: "关注", imgName: "btn_l_attention")
+        setupSubs(attVc, title: "关注", imgName: "btn_l_attention")
         
         let mineVc = MineController()
-        setupSubs(vc: mineVc, title: "我的", imgName: "btn_user")
+        setupSubs(mineVc, title: "我的", imgName: "btn_user")
         
         
        
     }
 
-    func setupSubs (vc:UIViewController,title:String,imgName:String) {
+    func setupSubs (_ vc:UIViewController,title:String,imgName:String) {
         
         vc.tabBarItem.title = title
         vc.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:UIColor.black], for: .normal)
