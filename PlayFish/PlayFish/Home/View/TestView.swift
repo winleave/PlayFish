@@ -117,28 +117,28 @@ extension TestView{
             return
         }
         delegate?.testViewDidSelect(label.tag)
-        selectLabel(label: label)
+        self.selectLabel(label: label)
         
     }
     
     
     
     
-    func setTitleSelect(titleIndex:Int){
+    func setTitleSelect(_ titleIndex:Int){
         
         print(self.labels.count)
         print(titleIndex )
         let label = self.labels[titleIndex]
         print(label.tag)
         
-        selectLabel(label: label)
+        self.selectLabel(label: label)
         
         
         
     }
     
     
-    private func selectLabel(label:UILabel){
+    fileprivate func selectLabel(label:UILabel){
         
         
         

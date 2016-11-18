@@ -28,7 +28,17 @@ class HomeController: PFBaseController,TestViewDelegate {
         
         view.addSubview(tV)
         
-       
+        let date = Date()
+        
+        let date1 = Date()
+        print(date )
+        print(date1)
+        
+        
+        
+        
+        
+        
     }
 
     
@@ -84,16 +94,16 @@ extension HomeController:pageContentDelegate{
     func testViewDidSelect(_ index: Int) {
         print("现在选中了\(index)的label")
         
-        self.contentVcView?.scrollPageToIndex(index: index)
+        self.contentVcView?.scrollPageToIndex(index)
         
         
         
     }
     
     // MARK:- pageContentDelegate
-    func pageContentDidScrollIndex(index: Int) {
+    func pageContentDidScrollIndex(_ index: Int) {
         print("\(index)" + "滚到这了")
-        self.testView?.setTitleSelect(titleIndex: index)
+        self.testView?.setTitleSelect(index)
     }
 }
 

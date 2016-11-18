@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A448B4381DCB817500A1D1EB /* HotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448B4371DCB817500A1D1EB /* HotCell.swift */; };
+		A448B43A1DCB818F00A1D1EB /* PrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448B4391DCB818F00A1D1EB /* PrettyCell.swift */; };
+		A448B43C1DCC189800A1D1EB /* CollectionViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448B43B1DCC189800A1D1EB /* CollectionViewHeaderView.swift */; };
+		A46F910A1DCD935800E402DC /* RecommandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F91091DCD935800E402DC /* RecommandViewModel.swift */; };
+		A46F910C1DCD950800E402DC /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F910B1DCD950800E402DC /* Date+Extension.swift */; };
+		A46F910E1DCF352500E402DC /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F910D1DCF352500E402DC /* AnchorModel.swift */; };
+		A46F91101DCF35FD00E402DC /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F910F1DCF35FD00E402DC /* AnchorGroup.swift */; };
+		A46F916E1DD00DFA00E402DC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A46F916D1DD00DFA00E402DC /* libsqlite3.0.tbd */; };
+		A46F91B01DD011BB00E402DC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F91A61DD011BB00E402DC /* FMDatabase.m */; };
+		A46F91B11DD011BB00E402DC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F91A81DD011BB00E402DC /* FMDatabaseAdditions.m */; };
+		A46F91B21DD011BB00E402DC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F91AA1DD011BB00E402DC /* FMDatabasePool.m */; };
+		A46F91B31DD011BB00E402DC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F91AC1DD011BB00E402DC /* FMDatabaseQueue.m */; };
+		A46F91B41DD011BB00E402DC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A46F91AF1DD011BB00E402DC /* FMResultSet.m */; };
 		A478E8051DBA33F800DE704F /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478E8041DBA33F800DE704F /* PageContentView.swift */; };
+		A486A3181DD0154D008B4E5E /* PYCacheTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A486A3171DD0154D008B4E5E /* PYCacheTool.swift */; };
 		A48C7E8D1DB78C560079E2CC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C7E8C1DB78C560079E2CC /* UIView+Extension.swift */; };
 		A48C7E8F1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C7E8E1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift */; };
 		A48C7E911DB7D3EB0079E2CC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48C7E901DB7D3EB0079E2CC /* TestView.swift */; };
@@ -39,12 +53,34 @@
 		A4BBE7E41DA9156400ED3CF2 /* AttentionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E31DA9156400ED3CF2 /* AttentionController.swift */; };
 		A4BBE7E61DA9157100ED3CF2 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E51DA9157100ED3CF2 /* MineController.swift */; };
 		A4BBE7E91DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */; };
+		A4EE6CF61DC8D9C500B96C8D /* PYNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EE6CF51DC8D9C500B96C8D /* PYNetworkTool.swift */; };
 		E3FB1FF9E1165F6BAC6CC84E /* Pods_PlayFish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7252F647778844739FD882BE /* Pods_PlayFish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7252F647778844739FD882BE /* Pods_PlayFish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayFish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A448B4371DCB817500A1D1EB /* HotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotCell.swift; sourceTree = "<group>"; };
+		A448B4391DCB818F00A1D1EB /* PrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyCell.swift; sourceTree = "<group>"; };
+		A448B43B1DCC189800A1D1EB /* CollectionViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewHeaderView.swift; sourceTree = "<group>"; };
+		A46F91091DCD935800E402DC /* RecommandViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommandViewModel.swift; sourceTree = "<group>"; };
+		A46F910B1DCD950800E402DC /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		A46F910D1DCF352500E402DC /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		A46F910F1DCF35FD00E402DC /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		A46F916D1DD00DFA00E402DC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A46F91A51DD011BB00E402DC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A46F91A61DD011BB00E402DC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A46F91A71DD011BB00E402DC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A46F91A81DD011BB00E402DC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A46F91A91DD011BB00E402DC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A46F91AA1DD011BB00E402DC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A46F91AB1DD011BB00E402DC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A46F91AC1DD011BB00E402DC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A46F91AD1DD011BB00E402DC /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A46F91AE1DD011BB00E402DC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A46F91AF1DD011BB00E402DC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A46F91B71DD0123100E402DC /* PlayFish-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayFish-Bridging-Header.h"; sourceTree = "<group>"; };
 		A478E8041DBA33F800DE704F /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		A486A3171DD0154D008B4E5E /* PYCacheTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYCacheTool.swift; sourceTree = "<group>"; };
 		A48C7E8C1DB78C560079E2CC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		A48C7E8E1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		A48C7E901DB7D3EB0079E2CC /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -78,6 +114,7 @@
 		A4BBE7E31DA9156400ED3CF2 /* AttentionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionController.swift; sourceTree = "<group>"; };
 		A4BBE7E51DA9157100ED3CF2 /* MineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
 		A4BBE7E81DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		A4EE6CF51DC8D9C500B96C8D /* PYNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PYNetworkTool.swift; sourceTree = "<group>"; };
 		E1EB7E68472299BB5F3B9571 /* Pods-PlayFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayFish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayFish/Pods-PlayFish.debug.xcconfig"; sourceTree = "<group>"; };
 		E290CAB06BC71ED48E9A2109 /* Pods-PlayFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayFish.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayFish/Pods-PlayFish.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46F916E1DD00DFA00E402DC /* libsqlite3.0.tbd in Frameworks */,
 				E3FB1FF9E1165F6BAC6CC84E /* Pods_PlayFish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,11 +141,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A448B4361DCB811500A1D1EB /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A46F91091DCD935800E402DC /* RecommandViewModel.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		A46F91A41DD011BB00E402DC /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A46F91A51DD011BB00E402DC /* FMDatabase.h */,
+				A46F91A61DD011BB00E402DC /* FMDatabase.m */,
+				A46F91A71DD011BB00E402DC /* FMDatabaseAdditions.h */,
+				A46F91A81DD011BB00E402DC /* FMDatabaseAdditions.m */,
+				A46F91A91DD011BB00E402DC /* FMDatabasePool.h */,
+				A46F91AA1DD011BB00E402DC /* FMDatabasePool.m */,
+				A46F91AB1DD011BB00E402DC /* FMDatabaseQueue.h */,
+				A46F91AC1DD011BB00E402DC /* FMDatabaseQueue.m */,
+				A46F91AD1DD011BB00E402DC /* FMDB.h */,
+				A46F91AE1DD011BB00E402DC /* FMResultSet.h */,
+				A46F91AF1DD011BB00E402DC /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		A48C7E8B1DB78C1B0079E2CC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				A48C7E8C1DB78C560079E2CC /* UIView+Extension.swift */,
 				A48C7E8E1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift */,
+				A46F910B1DCD950800E402DC /* Date+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -133,6 +198,7 @@
 		A4BBE7901DA8C6CE00ED3CF2 /* PlayFish */ = {
 			isa = PBXGroup;
 			children = (
+				A46F91A41DD011BB00E402DC /* fmdb */,
 				A4BBE7C01DA8DB7A00ED3CF2 /* Source */,
 				A4BBE7A31DA8C72000ED3CF2 /* Home */,
 				A4BBE7A71DA8C72000ED3CF2 /* BroadCast */,
@@ -151,6 +217,7 @@
 		A4BBE7A31DA8C72000ED3CF2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A448B4361DCB811500A1D1EB /* HomeViewModel */,
 				A4BBE7A41DA8C72000ED3CF2 /* Controller */,
 				A4BBE7A51DA8C72000ED3CF2 /* Model */,
 				A4BBE7A61DA8C72000ED3CF2 /* View */,
@@ -170,6 +237,8 @@
 		A4BBE7A51DA8C72000ED3CF2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A46F910D1DCF352500E402DC /* AnchorModel.swift */,
+				A46F910F1DCF35FD00E402DC /* AnchorGroup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +249,9 @@
 				A48C7E901DB7D3EB0079E2CC /* TestView.swift */,
 				A478E8041DBA33F800DE704F /* PageContentView.swift */,
 				A4B75FE11DBCBBB30017570B /* PageCollectionViewCell.swift */,
+				A448B4371DCB817500A1D1EB /* HotCell.swift */,
+				A448B4391DCB818F00A1D1EB /* PrettyCell.swift */,
+				A448B43B1DCC189800A1D1EB /* CollectionViewHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +355,7 @@
 		A4BBE7B31DA8C72000ED3CF2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A4EE6CF41DC8D99900B96C8D /* Tools */,
 				A4BBE7B41DA8C72000ED3CF2 /* Controller */,
 				A4BBE7B51DA8C72000ED3CF2 /* Model */,
 				A4BBE7B61DA8C72000ED3CF2 /* View */,
@@ -345,9 +418,20 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		A4EE6CF41DC8D99900B96C8D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE6CF51DC8D9C500B96C8D /* PYNetworkTool.swift */,
+				A46F91B71DD0123100E402DC /* PlayFish-Bridging-Header.h */,
+				A486A3171DD0154D008B4E5E /* PYCacheTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		D1A9BFEB266C9E7671AB26E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A46F916D1DD00DFA00E402DC /* libsqlite3.0.tbd */,
 				7252F647778844739FD882BE /* Pods_PlayFish.framework */,
 			);
 			name = Frameworks;
@@ -389,7 +473,7 @@
 					A4BBE78D1DA8C6CE00ED3CF2 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 582Q49ZKFZ;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -493,20 +577,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4AB6D6B1DC4511E007ED994 /* RecomandController.swift in Sources */,
+				A46F910A1DCD935800E402DC /* RecommandViewModel.swift in Sources */,
+				A46F91B41DD011BB00E402DC /* FMResultSet.m in Sources */,
+				A448B43A1DCB818F00A1D1EB /* PrettyCell.swift in Sources */,
 				A48C7E911DB7D3EB0079E2CC /* TestView.swift in Sources */,
+				A46F91B11DD011BB00E402DC /* FMDatabaseAdditions.m in Sources */,
+				A46F910E1DCF352500E402DC /* AnchorModel.swift in Sources */,
 				A4B75FE21DBCBBB30017570B /* PageCollectionViewCell.swift in Sources */,
 				A4BBE7BC1DA8C9D000ED3CF2 /* HomeController.swift in Sources */,
+				A46F91101DCF35FD00E402DC /* AnchorGroup.swift in Sources */,
 				A4BBE7BA1DA8C9B800ED3CF2 /* PFTabBarController.swift in Sources */,
 				A4BBE7B81DA8C9A500ED3CF2 /* PFBaseController.swift in Sources */,
 				A4BBE7E21DA9155000ED3CF2 /* BroadCastController.swift in Sources */,
 				A4BBE7E61DA9157100ED3CF2 /* MineController.swift in Sources */,
 				A48C7E8F1DB78F7B0079E2CC /* UIBarButtonItem+Extension.swift in Sources */,
+				A46F910C1DCD950800E402DC /* Date+Extension.swift in Sources */,
+				A46F91B21DD011BB00E402DC /* FMDatabasePool.m in Sources */,
 				A4BBE7921DA8C6CE00ED3CF2 /* AppDelegate.swift in Sources */,
+				A46F91B01DD011BB00E402DC /* FMDatabase.m in Sources */,
 				A4BBE7BE1DA8C9E700ED3CF2 /* PFNavigationController.swift in Sources */,
+				A448B4381DCB817500A1D1EB /* HotCell.swift in Sources */,
 				A4BBE7E41DA9156400ED3CF2 /* AttentionController.swift in Sources */,
 				A478E8051DBA33F800DE704F /* PageContentView.swift in Sources */,
 				A48C7E8D1DB78C560079E2CC /* UIView+Extension.swift in Sources */,
+				A486A3181DD0154D008B4E5E /* PYCacheTool.swift in Sources */,
 				A4BBE7E91DA93C1700ED3CF2 /* UIBarButtonItem-Extension.swift in Sources */,
+				A448B43C1DCC189800A1D1EB /* CollectionViewHeaderView.swift in Sources */,
+				A4EE6CF61DC8D9C500B96C8D /* PYNetworkTool.swift in Sources */,
+				A46F91B31DD011BB00E402DC /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,12 +708,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 582Q49ZKFZ;
 				INFOPLIST_FILE = PlayFish/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venlei.PlayFish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayFish/Main/Tools/PlayFish-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -626,12 +727,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 582Q49ZKFZ;
 				INFOPLIST_FILE = PlayFish/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.venlei.PlayFish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayFish/Main/Tools/PlayFish-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -10,6 +10,7 @@ import UIKit
 fileprivate  let kCellMargin:CGFloat = 10
 fileprivate  let kScreenW = UIScreen.main.bounds.size.width
 private let kCellFirstSecId = "kCellFirstSecId"
+private let kCellSecondId = "PrettyCell"
 private let kCellHeaderId = "kCellHeaderId"
 private  let kCellW = (kScreenW - 3 * kCellMargin) / 2
 private  let kCellH = kCellW * 3 / 4
@@ -19,6 +20,12 @@ class RecomandController: UIViewController {
     
 
  
+    fileprivate lazy var recommandViewModel:RecommandViewModel = {
+       let recVM = RecommandViewModel()
+        
+        return recVM
+    }()
+    
     
     
     lazy var collectView:UICollectionView = {[unowned self] in
@@ -33,11 +40,12 @@ class RecomandController: UIViewController {
         layout.headerReferenceSize = CGSize(width: kScreenW, height: 60)
         let coll = UICollectionView(frame: self.view.bounds, collectionViewLayout: layout)
         coll.autoresizingMask = [.flexibleWidth,.flexibleHeight]
-        coll.backgroundColor = UIColor.red
+        coll.backgroundColor = UIColor.white
         coll.dataSource = self
         coll.delegate = self
         
-        coll.register(UICollectionViewCell.self, forCellWithReuseIdentifier: kCellFirstSecId)
+        coll.register(HotCell.self, forCellWithReuseIdentifier: kCellFirstSecId)
+        coll.register(PrettyCell.self, forCellWithReuseIdentifier:kCellSecondId)
         
         return coll
     }()
@@ -46,10 +54,14 @@ class RecomandController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectView.register(UICollectionReusableView.self, forSupplementaryViewOfKind:UICollectionElementKindSectionHeader , withReuseIdentifier: kCellHeaderId)
-        view.backgroundColor = UIColor.blue
+        collectView.register(CollectionViewHeaderView.self, forSupplementaryViewOfKind:UICollectionElementKindSectionHeader , withReuseIdentifier: kCellHeaderId)
+        
         
         view.addSubview(collectView)
+        
+        recommandViewModel.loadNetRecomData { 
+            self.collectView.reloadData()
+        }
     }
 
 
@@ -63,23 +75,28 @@ extension RecomandController:UICollectionViewDataSource,UICollectionViewDelegate
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         
-        return 6
+        
+        
+        return self.recommandViewModel.anchorGroups.count
     }
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if section == 0 {
-            return 6
-        }
+        let group = recommandViewModel.anchorGroups[section]
         
-        return 10
+        return group.anchors.count
     }
     
     
     
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let header = collectView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: kCellHeaderId, for: indexPath)
+        let header = collectView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: kCellHeaderId, for: indexPath) as! CollectionViewHeaderView
+        let group = recommandViewModel.anchorGroups[indexPath.section]
+        
+        
+        
+        header.group = group
         
         return header
     }
@@ -87,8 +104,20 @@ extension RecomandController:UICollectionViewDataSource,UICollectionViewDelegate
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-            let cell = collectView.dequeueReusableCell(withReuseIdentifier: kCellFirstSecId, for: indexPath)
-            cell.backgroundColor = UIColor.orange
+        
+            let group = recommandViewModel.anchorGroups[indexPath.section]
+        
+            let anchor = group.anchors[indexPath.item]
+            
+        
+            let cell = collectView.dequeueReusableCell(withReuseIdentifier: kCellFirstSecId, for: indexPath) as! HotCell
+            cell.anchorModel = anchor
+            let pretyCell = collectionView.dequeueReusableCell(withReuseIdentifier: kCellSecondId, for: indexPath) as! PrettyCell
+        if indexPath.section == 1 {
+            pretyCell.anchorModel = anchor
+            return pretyCell
+        }
+            
             return cell
         
     }

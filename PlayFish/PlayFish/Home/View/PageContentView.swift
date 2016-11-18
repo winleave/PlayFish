@@ -10,7 +10,7 @@ import UIKit
 
 
 protocol pageContentDelegate:class {
-    func pageContentDidScrollIndex(index:Int)
+    func pageContentDidScrollIndex(_ index:Int)
 }
 class PageContentView: UIView {
      var childsVc:[UIViewController]
@@ -103,7 +103,7 @@ extension PageContentView:UICollectionViewDataSource {
 
 extension PageContentView{
     
-    func scrollPageToIndex(index:Int){
+    func scrollPageToIndex(_ index:Int){
         let point = CGPoint(x: CGFloat(index) * self.bounds.size.width, y: 0)
         vcContentView.setContentOffset(point, animated: false)
         
@@ -119,7 +119,7 @@ extension PageContentView:UICollectionViewDelegate{
         let index = offsetX / self.bounds.size.width
         
         print(Int(index))
-        self.delegate?.pageContentDidScrollIndex(index: Int(index))
+        self.delegate?.pageContentDidScrollIndex(Int(index))
         
     }
     
